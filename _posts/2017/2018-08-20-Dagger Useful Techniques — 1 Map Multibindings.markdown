@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Dagger Useful Techniques — #1 Map Multibindings"
-date:   2018-01-30 23:38:00+0530
+date:   2018-08-20 23:38:00+0530
 categories: main
 tags: android
 comments: true
