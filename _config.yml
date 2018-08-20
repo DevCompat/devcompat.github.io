@@ -1,0 +1,30 @@
+# Setup
+title:        DevCompat Blog
+tagline:      Welcome! This is official blog of DevCompat.
+baseurl:      ""
+paginate:     1
+locale:       "en"
+
+# About/contact
+author:
+  name:       DevCompat
+  url:        https://devcompat.github.io 
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+
+#Others
+markdown: kramdown
+permalink: /:title/
+
+plugins:
+  - jekyll-gist
+  
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      slug: null

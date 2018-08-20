@@ -1,0 +1,15 @@
+---
+layout: default
+title: {{ site.name }}
+---
+
+{% include page-header.html %}
+
+<div id="home" class="main-content">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span><small><strong>{{ post.date | date:"%B %-d, %Y" }}</strong></small></span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
