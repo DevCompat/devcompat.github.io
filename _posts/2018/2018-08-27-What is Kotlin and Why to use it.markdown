@@ -7,7 +7,7 @@ tags: kotlin
 comments: true
 ---
 
-**Kotlin** is a **modern programming** lanngauge which targets java platform and run on JVM. Although it's not a very new language but it has become quite popular after **Google** started to support Kotlin as its official language. Kotlin v1.0 developed by [JetBrains](https://www.jetbrains.com/) was released way back in [Feb, 2016](https://blog.jetbrains.com/kotlin/2016/02/kotlin-1-0-released-pragmatic-language-for-jvm-and-android/). Kotlin is **concise, more expressive than Java, safe, functional, pragmatice and interoperable with Java**.
+**Kotlin** is a **modern programming** language which targets java platform and run on JVM. Although it's not a very new language but it has become quite popular after **Google** started to support Kotlin as its official language. Kotlin v1.0 developed by [JetBrains](https://www.jetbrains.com/) was released way back in [Feb, 2016](https://blog.jetbrains.com/kotlin/2016/02/kotlin-1-0-released-pragmatic-language-for-jvm-and-android/). Kotlin is **concise, more expressive than Java, safe, functional, pragmatice and interoperable with Java**.
 
 # Kotlin Primary Features
 Kotlin has most of the key features a modern programming language should have. Kotlin is **based on JVM** and aims to provide a safer alternative to Java. Java is an immensely popular language and used in a vast variety of platforms <u>(eg. From embedded systems to Data centers)</u>. Kotlin can do most of the work which is done by Java like **building server applications, android applications and running microservices**. It can also be compiled to **Javascript** which means you can run **Kotlin in Browser**. But here are some of the key traits which are not present in Java
