@@ -7,7 +7,7 @@ tags: kotlin
 comments: true
 ---
 
-**Kotlin** is a **modern programming** language which targets java platform and run on JVM. Although it's not a very new language but it has become quite popular after **Google** started to support Kotlin as its official language. Kotlin v1.0 developed by [JetBrains](https://www.jetbrains.com/) was released way back in [Feb, 2016](https://blog.jetbrains.com/kotlin/2016/02/kotlin-1-0-released-pragmatic-language-for-jvm-and-android/). Kotlin is **concise, more expressive than Java, safe, functional, pragmatice and interoperable with Java**.
+**Kotlin** is a **modern programming** language which targets java platform and run on JVM. Although it's not a very new language but it has become quite popular after **Google** started to support Kotlin as its official language. Kotlin v1.0 developed by [JetBrains](https://www.jetbrains.com/) was released way back in [Feb, 2016](https://blog.jetbrains.com/kotlin/2016/02/kotlin-1-0-released-pragmatic-language-for-jvm-and-android/). Kotlin is **concise, more expressive than Java, safe, functional, pragmatic and interoperable with Java**.
 
 # Kotlin Primary Features
 Kotlin has most of the key features a modern programming language should have. Kotlin is **based on JVM** and aims to provide a safer alternative to Java. Java is an immensely popular language and used in a vast variety of platforms <u>(eg. From embedded systems to Data centers)</u>. Kotlin can do most of the work which is done by Java like **building server applications, android applications and running microservices**. It can also be compiled to **Javascript** which means you can run **Kotlin in Browser**. But here are some of the key traits which are not present in Java
@@ -76,7 +76,7 @@ data class Actor(
 And Kotlin will write all the boilerplate code (**setters**, **getters** and even overrides the **equals()** and **hashCode()**) which makes code <u>less verbose and more expressive</u>.
 
 ## 2. Statically Typed
-Kotlin is a **statically typed language** same as **Java**. Statically typed means that the <u>type of every expression is known at compile time</u> and thus compiler can validate the methods and fields. But unlike java, Kotlin doesn't require you to specify the type of every variable explicitly. Most of the time, it can automatically be <u>determined by the context</u>. This ability of compiler (determining type by context) is known as **Type Interfernce**.
+Kotlin is a **statically typed language** same as **Java**. Statically typed means that the <u>type of every expression is known at compile time</u> and thus compiler can validate the methods and fields. But unlike java, Kotlin doesn't require you to specify the type of every variable explicitly. Most of the time, it can automatically be <u>determined by the context</u>. This ability of compiler (determining type by context) is known as **Type Interference**.
 {% highlight java %}
 val x = 10;
 {% endhighlight %}
@@ -120,7 +120,7 @@ interface Collection<E> ... {
   void addAll(Collection<? extends E> items);
 }
 {% endhighlight %}
-The wildcard type arugment `? extends E` means we can <u>safely read E's from the items</u> but can not <u>write to it because we don't know what objects comply to that unknown subtype of E</u>. This **extends-bound** (upper bound) is of covariant type. Similarly, there is contravariant type **super-bound** (lower bound) which suggest that you can <u>only write E to the collections of `? super E`</u> but can not <u>read E's from it</u>.
+The wildcard type argument `? extends E` means we can <u>safely read E's from the items</u> but can not <u>write to it because we don't know what objects comply to that unknown subtype of E</u>. This **extends-bound** (upper bound) is of covariant type. Similarly, there is contravariant type **super-bound** (lower bound) which suggest that you can <u>only write E to the collections of `? super E`</u> but can not <u>read E's from it</u>.
 
 Kotlin doesn't have any such wildcards but have variance annotations. Kotlin Provides two type of variance annotation, **out** (<u>makes a type parameter covariant</u>) and **in** (<u>makes a type variant contravariant</u>). Consider the following example: 
 {% highlight java %}
@@ -171,7 +171,7 @@ Server side programming includes a variety of applications like **web apps, back
 Kotlin language feature with a support plugin, turns **android development** into a much pleasurable experience and let you write less number of lines for code. Adding listeners to **view events**, **binding layouts** and **asynchronous programming**, all these can be done by Kotlin in very less code or even no sometimes. A library named [**Anko**](https://github.com/kotlin/anko) built by Kotlin team, can be used to <u>generate layout without using xmls</u>. All these combined together provides you a **nicer experience** for building android apps.
 
 # Final Words
-**Kotlin** is a powerful modern language which seamlessly work with a very old and popular language **Java**. The above mentioned features are only the key features of it, there are many more to describe but this post can not accomodate all of them. If you are a new **android developer**, you must start learning Kotlin as well because it's supported by Google so you can expect lots of new **tools** and **apis** built around Kotlin. If you are experienced with Java and Android Development, you should try Kotlin to **increase your productivity** and **write much more meaningful code**. 
+**Kotlin** is a powerful modern language which seamlessly work with a very old and popular language **Java**. The above mentioned features are only the key features of it, there are many more to describe but this post can not accommodate all of them. If you are a new **android developer**, you must start learning Kotlin as well because it's supported by Google so you can expect lots of new **tools** and **apis** built around Kotlin. If you are experienced with Java and Android Development, you should try Kotlin to **increase your productivity** and **write much more meaningful code**. 
 
 Thanks for reading so far. I hope you have enjoyed this article. If you have any suggestions or query, kindly do comment below. 
 
